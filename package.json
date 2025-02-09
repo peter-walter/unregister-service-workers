@@ -1,0 +1,35 @@
+{
+    "name": "unregister-service-workers",
+    "version": "1.0.0",
+    "main": "dist/unregistersw.js",
+    "types": "dist/unregistersw.d.ts",
+    "homepage": "https://github.com/peter-walter/copyright-year#readme",
+    "bugs": {
+        "url": "https://github.com/peter-walter/copyright-year/issues"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest",
+        "lint": "eslint src",
+        "prepublishOnly": "npm run build"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE.txt"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.20.0",
+        "eslint": "^9.20.0",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "globals": "^15.14.0",
+        "jsdom": "^26.0.0",
+        "prettier": "^3.5.0",
+        "tsx": "^4.19.2",
+        "typescript": "^5.0.0",
+        "typescript-eslint": "^8.23.0",
+        "vitest": "^1.6.1"
+    }
+}
