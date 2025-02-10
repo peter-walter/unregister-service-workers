@@ -1,11 +1,11 @@
 {
     "name": "unregister-service-workers",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/unregistersw.js",
     "types": "dist/unregistersw.d.ts",
-    "homepage": "https://github.com/peter-walter/copyright-year#readme",
+    "homepage": "https://github.com/peter-walter/unregister-service-workers#readme",
     "bugs": {
-        "url": "https://github.com/peter-walter/copyright-year/issues"
+        "url": "https://github.com/peter-walter/unregister-service-workers/issues"
     },
     "license": "MIT",
     "scripts": {
