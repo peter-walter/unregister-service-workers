@@ -23,7 +23,7 @@ unregistersw();
 
 ### TypeScript / ES Module
 ```ts
-import unregistersw from "copyright-year";
+import unregistersw from "unregister-service-workers";
 
 unregistersw();
 ```
