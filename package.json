@@ -1,35 +1,41 @@
 {
-    "name": "unregister-service-workers",
-    "version": "1.0.1",
-    "main": "dist/unregistersw.js",
-    "types": "dist/unregistersw.d.ts",
-    "homepage": "https://github.com/peter-walter/unregister-service-workers#readme",
-    "bugs": {
-        "url": "https://github.com/peter-walter/unregister-service-workers/issues"
-    },
-    "license": "MIT",
-    "scripts": {
-        "build": "tsc",
-        "test": "vitest",
-        "lint": "eslint src",
-        "prepublishOnly": "npm run build"
-    },
-    "files": [
-        "dist",
-        "README.md",
-        "LICENSE.txt"
-    ],
-    "devDependencies": {
-        "@eslint/js": "^9.20.0",
-        "eslint": "^9.20.0",
-        "eslint-config-prettier": "^10.0.1",
-        "eslint-plugin-prettier": "^5.2.3",
-        "globals": "^15.14.0",
-        "jsdom": "^26.0.0",
-        "prettier": "^3.5.0",
-        "tsx": "^4.19.2",
-        "typescript": "^5.0.0",
-        "typescript-eslint": "^8.23.0",
-        "vitest": "^1.6.1"
-    }
+  "name": "unregister-service-workers",
+  "description": "Disables all registered service workers in the current browser session.",
+  "type": "module",
+  "author": "Peter Walter",
+  "version": "1.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/peter-walter/unregister-service-workers#readme",
+  "bugs": {
+    "url": "https://github.com/peter-walter/unregister-service-workers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-walter/unregister-service-workers.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "lint": "eslint src test --ext .ts",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
 }
