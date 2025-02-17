@@ -3,7 +3,7 @@
   "description": "Disables all registered service workers in the current browser session.",
   "type": "module",
   "author": "Peter Walter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/peter-walter/unregister-service-workers#readme",
