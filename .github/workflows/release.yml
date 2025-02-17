@@ -57,7 +57,7 @@ jobs:
         run: npm run build
 
       - name: Format output
-        run: npm format
+        run: npm run format
 
       - name: Publish to npm
         run: npm publish --access public
