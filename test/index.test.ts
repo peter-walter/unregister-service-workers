@@ -1,5 +1,5 @@
 import { describe, it, vi, expect, beforeEach } from "vitest";
-import { unregistersw } from "../src";
+import unregistersw from "../src";
 
 // Mock the service worker API
 beforeEach(() => {
