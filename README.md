@@ -33,7 +33,7 @@ const unregistersw = require("unregister-service-workers").default;
 // Call this function to disable all service workers in the current browser session.
 unregistersw()
   .then(() => console.log("All service workers have been disabled."))
-  .catch(error => console.error("Failed to disable service workers:", error));
+  .catch((error) => console.error("Failed to disable service workers:", error));
 ```
 
 ### TypeScript / ES Module
@@ -44,7 +44,7 @@ import unregistersw from "unregister-service-workers";
 // Call this function to disable all service workers in the current browser session.
 unregistersw()
   .then(() => console.log("All service workers have been disabled."))
-  .catch(error => console.error("Failed to disable service workers:", error));
+  .catch((error) => console.error("Failed to disable service workers:", error));
 ```
 
 ## License

@@ -14,7 +14,7 @@
  *   .then(() => console.log("All service workers have been disabled."))
  *   .catch(error => console.error("Failed to disable service workers:", error));
  */
-export async function unregistersw(): Promise<void> {
+export default async function unregistersw(): Promise<void> {
   if (!("serviceWorker" in navigator)) {
     console.warn("Service workers are not supported in this browser.");
     return;
